@@ -115,7 +115,7 @@ def setup_logging(level=logging.DEBUG):
 def main():
     setup_logging()
     # test_sp_page()
-    with open("test2.csv", "r") as fin:
+    with open("test.csv", "r") as fin:
         with open('output.csv','w') as fout:
             reader = csv.DictReader(fin, delimiter='\t')
             fieldnames = reader.fieldnames

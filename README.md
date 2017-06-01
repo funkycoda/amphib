@@ -11,3 +11,25 @@ The main difference between these two databases is that AmphibiaWeb do not provi
  * distribution: general information on distribution of a given species.
 
 This process will add the additional columns as necessary.
+
+## How to use:
+
+### Using virtualenv (recommended)
+Best way to use this is to use [virtualenv](http://virtualenv.readthedocs.io/en/stable/installation/)
+
+Clone the repo
+```
+git clone https://github.com/funkycoda/amphib.git
+```
+
+Navigate to the folder and enable it for ```virtualenv```
+```
+cd amphib
+virtualenv .
+source bin/activate
+```
+
+Install the necessary dependencies
+```
+pip install -r requirements.txt
+```
